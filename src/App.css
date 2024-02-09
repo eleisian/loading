@@ -1,0 +1,18 @@
+/* src/App.css */
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the container fills the entire screen height */
+}
+
+.gif-image {
+  max-width: 50%; /* Each image takes up 50% of the container width */
+  height: auto; /* Allows the image to maintain its aspect ratio */
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
